@@ -141,7 +141,7 @@ create_partition() {
     dd if=/dev/zero of=${DEV_EMMC} bs=1M count=16 conv=fsync
 
     # Set partition size (Unit: MiB)
-    BLANK1="32"
+    BLANK1="16"
     BOOT="256"
     ROOT1="960"
     ROOT2="960"
